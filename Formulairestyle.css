@@ -1,0 +1,112 @@
+body {
+    background-image: url('ecole.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Couvre toute la page */
+    background-position: center; /* Centre l'image */
+
+
+
+    background-color: #f0f0f0;
+    font-family: "Gill Sans", sans-serif;    
+    font-weight: bold;
+    font-size: 15px;}
+
+h1 {
+    color: #2c3e50; /* Couleur du titre */
+    text-align: center;
+    font-weight: 600; /* Slightly bold */
+    border: 2px solid white; /* White border */
+    padding: 10px; /* Padding around the text */
+    border-radius: 200px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent white background */
+
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); 
+
+    max-width: 600px; /* Largeur maximale du formulaire */
+    margin: 20px auto; /* Centrer le formulaire */
+    padding: 20px;
+    background-color: #ffffff; /* Couleur de fond du formulaire */
+    border: 2px solid #2980b9; /* Bordure du formulaire */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre du formulaire */
+}
+
+table {
+    width: 100%; /* Utiliser toute la largeur disponible */
+}
+
+td {
+    padding: 10px; /* Espacement des cellules */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select,
+textarea {
+    width: 100%; /* Prendre toute la largeur disponible */
+    padding: 10px; /* Espacement interne */
+    border: 1px solid #bdc3c7; /* Bordure des champs */
+    border-radius: 5px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur */
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    background-color: #2980b9; /* Couleur de fond des boutons */
+    color: #ffffff; /* Couleur du texte des boutons */
+    border: 'none'; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 15px; /* Espacement interne */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s; /* Transition pour l'effet hover */
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: #3498db; /* Couleur au survol */
+}
+
+
+
+
+footer {
+    
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-top: 2px solid transparent; /* Transparent border */
+    padding: 20px; /* Add padding */
+    color: #2c3e50; /* Change text color to blue */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.footer-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right */
+    align-items: center; /* Center vertically */
+    max-width: 1200px; /* Max width for the footer content */
+    margin: 0 auto; /* Center the footer */
+    padding: 0 20px; /* Add horizontal padding */
+}
+
+.contact-info {
+    text-align: left; /* Align text to the left */
+}
+
+.copyright {
+    text-align: right; /* Align text to the right */
+}
+
+
+
+textarea {
+    font-size: 16px !important; /* Adjust size as needed */
+    padding: 10px !important; /* Adds padding */
+    width: 100% !important; /* Makes it responsive */
+    box-sizing: border-box !important; /* Ensures padding is included in width */
+}

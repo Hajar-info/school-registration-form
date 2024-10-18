@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+p {
+    color: #2c3e50; /* Message color */
+}
+
+.table {
+    width: 100%; /* Full width */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Merge borders */
+}
+
+table {
+    width: 90%; /* Table width */
+    margin: 20px auto; /* Center the table */
+    border: 1px solid #2c3e50; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Clip overflow */
+}
+
+th, td {
+    padding: 12px; /* Padding for table cells */
+    text-align: left; /* Left align text */
+    border-bottom: 1px solid #ddd; /* Bottom border */
+}
+
+th {
+    background-color: #2c3e50; /* Header background color */
+    color: white; /* Header text color */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Row hover color */
+}
+
+.btn {
+    display: inline-block; /* Make it a block for button-like appearance */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #2c3e50; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-top: 2px solid transparent; /* Transparent border */
+    padding: 20px; /* Padding */
+    color: #2c3e50; /* Text color */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.footer-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right */
+    align-items: center; /* Center vertically */
+    max-width: 1200px; /* Max width */
+    margin: 0 auto; /* Center the footer */
+}
+
+.contact-info {
+    text-align: left; /* Left align text */
+}
+
+.copyright {
+    text-align: right; /* Right align text */
+}

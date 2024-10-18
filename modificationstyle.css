@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    width: 50%; /* Set form width to a smaller size */
+    margin: 0 auto; /* Center the form */
+    background-color: white; /* White background for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+table {
+    width: 100%; /* Make the table full width */
+    border-collapse: collapse; /* Remove space between borders */
+}
+
+th, td {
+    padding: 10px; /* Space inside table cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #2c3e50; /* Updated to specified blue */
+    color: white; /* White text for header */
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Increased padding */
+    border: 2px solid #ccc; /* Increased border width */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width/height */
+    font-size: 16px; /* Increased font size */
+}
+
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Increased padding */
+    border: 2px solid #ccc; /* Increased border width */
+    border-radius: 4px; /* Rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+    box-sizing: border-box; /* Include padding and border in width/height */
+    min-height: 80px; /* Minimum height for the textarea */
+    font-size: 16px; /* Increased font size for readability */
+}
+
+input[type="submit"] {
+    background-color: #2c3e50; /* Matching blue background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+}
+
+input[type="submit"]:hover {
+    background-color: #1a242f; /* Darker shade on hover */
+}
+
+footer {
+    text-align: center; /* Center footer text */
+    margin-top: 20px; /* Space above footer */
+    padding: 10px 0; /* Padding inside footer */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background */
+    border-top: 1px solid #ccc; /* Border above footer */
+    color: #2c3e50; /* Matching blue text for footer */
+}
